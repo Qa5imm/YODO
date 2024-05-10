@@ -5455,6 +5455,15 @@ body.mfp-zoom-out-cur {
   }
 }
 
+/* Privacy Policay Page */
+.p-section {
+  padding: 1rem;
+}
+
+ul.plist li {
+  display: list-item;
+  list-style-type: square;
+}
 /* ======= toTop Button style ======= */
 .progress-wrap {
   position: fixed;
@@ -5522,6 +5531,9 @@ body.mfp-zoom-out-cur {
 
 /* ======= Responsive style ======= */
 @media (min-width: 1200px) {
+  .p-section {
+    padding: 4rem;
+  }
   .container {
     max-width: 1140px !important;
   }
